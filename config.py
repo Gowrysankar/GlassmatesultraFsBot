@@ -22,7 +22,7 @@ API_HASH = os.environ.get("API_HASH", "a6f4235751213eb700d6ef19be1a4135")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001829541710"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6291642176"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1253389605"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -32,7 +32,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://daaaavudaaaa_info1:daaaav
 DB_NAME = os.environ.get("DATABASE_NAME", "glassmatesfilesharebot")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001735872938"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001556912164")
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -40,13 +40,13 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link🫣.")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "6291642176 969099516 6062214313").split()):
+    for x in (os.environ.get("ADMINS", "1253389605 6062214313").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to join in my Channel to use me\n\nKindly Please Join Our Channel❤️</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
